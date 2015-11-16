@@ -19,6 +19,59 @@ JKE: Each table row should have two TableCell elements
 
 <!-- Add two labels here -->
     
+
+
+
+        <asp:Table ID="Table1" 
+            runat="server" 
+            Font-Size="X-Large" 
+            Width="550" 
+            Font-Names="Palatino"
+            BackColor="black"
+            BorderColor="DarkRed"
+            BorderWidth="2"
+            ForeColor="Snow"
+            CellPadding="2"
+            CellSpacing="5"
+            >
+
+
+            <asp:TableRow>
+                 <asp:TableCell>
+                    Name:
+                 </asp:TableCell>
+                <asp:TableCell>
+                 <asp:TextBox id="TextBox1" runat="server" />
+                </asp:TableCell>
+            </asp:TableRow>
+
+            <asp:TableRow>
+                 <asp:TableCell>
+                    Age:
+                 </asp:TableCell>
+                <asp:TableCell>
+                 <asp:TextBox id="TextBox2" runat="server" />
+                </asp:TableCell>
+            </asp:TableRow>
+
+        </asp:Table>
+
+
+<!-- JKE: Add button here with click based event trigger -->
+<p>
+
+<asp:Button Text="Press Me!" runat="server" id="Button1" OnClick="Button1_Click" />
+
+</p>
+<!-- Add two labels here  -->
+<p>
+    <asp:Label id="Label1" runat="server" />
+</p>
+
+<p>
+ <!--   <asp:Label id="Label2" runat="server"/> -->
+</p>
+           
     </div>
     </form>
 </body>
