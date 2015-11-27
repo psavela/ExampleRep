@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "MyTestView";
+}
+
+<h2>MyTestView</h2>
+<p>Kokeilu</p>
+
+@{ 
+    var virtualPath = Request.Path;
+    var URLPath = Request.PhysicalPath;
+
+}
+@{for( int i = 0 ; i < 10; i++ )
+{
+
+        <p>@VirtualPath</p> 
+        <p>@URLPath</p>             
+                      
+    }
+}

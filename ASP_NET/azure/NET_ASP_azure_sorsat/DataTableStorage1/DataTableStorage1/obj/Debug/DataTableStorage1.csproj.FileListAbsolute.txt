@@ -1,0 +1,1 @@
+C:\ASPNETKurssi\DataTableStorage1\DataTableStorage1\bin\Debug\DataTableStorage.exe.config
